@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgb(0, 0, 0, 0.6);
+    color: rgb(207, 207, 207);
+    height: 55px;
+  }
+  
+  .nav_toggles {
+    color: white !important;
+  }
+  
+  .nav_toggles:hover {
+      transform: scale(1.1);
+      transition: 0.2s ease;
+    }

@@ -1,0 +1,31 @@
+.tasklist {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-flow: row;
+    height: 100%;
+    width: 95%;
+  }
+  
+  .tasklist:hover {
+    background-color: #eebe86;
+    border-radius: 30px;
+    color: rgb(163, 163, 30);
+    transition: color 100ms ease-out;
+  }
+  
+  .tasklist > .MuiSvgIcon-root {
+    padding: 20px;
+  }
+  
+  .tasklist > h2 {
+    font-weight: 100;
+    font-size: 2px;
+    margin-right: 2px;
+  }
+  .tasks{
+    border-left: 1px solid var(--twitter-background);
+    flex: 0.3;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
