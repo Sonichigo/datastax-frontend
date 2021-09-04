@@ -18,9 +18,12 @@ const SideBar = () => {
           <h2>{profile.name}</h2>
           <p>{profile.bio}</p>
         </figcaption>
-        <button>My account</button>
-        <br />
-        <button>Logout</button>
+        <div className="btn">
+          <h2>Points: {profile.points}</h2>
+        </div>
+        <button>
+          <h2>My Account</h2>
+        </button>
       </figure>
     </div>
   );

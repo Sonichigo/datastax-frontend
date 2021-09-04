@@ -72,12 +72,15 @@
   opacity: 0.8;
 }
 
-.card button {
-  font-weight: 300;
+.btn,
+button {
+  width: 80%;
   background-color: #023047;
-  padding: 10px 15px;
-  margin-left: 45px;
-  margin-bottom: 20px;
-  border-radius: 25px;
   color: #ffb703;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  padding: 10px 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
 }
