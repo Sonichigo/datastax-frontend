@@ -25,13 +25,13 @@ We have been into these tuff situations for now over 2 years. People are restric
 
   <div class = "row">
      <div class = "column">
-        <img src = "https://i.imgur.com/KriSVC6.png" height = "500px">
+        <img src = "https://i.imgur.com/KriSVC6.png" height = "350px">
       </div>
       <div class = "column">
-        <img src = "https://i.imgur.com/LzwWNlt.png" height = "500px">
+        <img src = "https://i.imgur.com/LzwWNlt.png" height = "350px">
       </div>
       <div class = "column">
-        <img src = "https://i.imgur.com/MNJXfXi.png" height = "500px">
+        <img src = "https://i.imgur.com/MNJXfXi.png" height = "350px">
       </div>
   </div>
 
