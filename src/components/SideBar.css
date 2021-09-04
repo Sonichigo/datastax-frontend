@@ -1,26 +1,83 @@
-.sidebar {
-    cursor: pointer;
-    background-color: rgba(201, 53, 53, 0.6);
-    flex-flow: row;
-    height: 50%;
-    width: 100%;
-    text-align: justify;
-    margin-left: 3%;
-  }
-  
-  .sidebar:hover {
-    background-color: #eebe86;
-    border-radius: 30px;
-    color: rgb(163, 163, 30);
-    transition: color 100ms ease-out;
-  }
-  
-  .sidebar > .MuiSvgIcon-root {
-    padding: 20px;
-  }
-  
-  .sidebar > h2 {
-    font-weight: 800;
-    font-size: 20px;
-    margin-right: 20px;
-  }
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+
+.card {
+  font-family: "Roboto", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  margin-top: 0;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #023047;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #ffb703;
+  border-radius: 2%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.card img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+
+.card figcaption {
+  width: 100%;
+  background-color: #ffb703;
+  padding: 25px;
+  position: relative;
+}
+
+.card figcaption:before {
+  position: absolute;
+  content: "";
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #ffb703;
+}
+
+.card .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.card p {
+  margin: 0 0 10px;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.card button {
+  font-weight: 300;
+  background-color: #023047;
+  padding: 10px 15px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  color: #ffb703;
+}
