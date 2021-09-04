@@ -4,8 +4,30 @@ import Post from "./Post";
 import PostBox from "./Postfeed";
 import FlipMove from "react-flip-move";
 import Feed from "../data/feed";
+import axios from "axios";
+import { useState, useEffect } from "react";
 
 const CreateFeed = () => {
+
+  const [quests, setQuests] = useState(Feed);
+
+  const getQuests = async () => {
+     try {
+       const data = await axios
+         .get("https://datastax-hackathon-api.herokuapp.com/")
+         .then((res) => {
+           setQuests(res.data);
+         });
+       return data;
+     } catch (e) {
+       console.log(e);
+     }
+   };
+
+   useEffect(() => {
+     getQuests();
+   }, []);
+
   return (
     <React.Fragment>
       <div className="feed custom">
@@ -16,7 +38,7 @@ const CreateFeed = () => {
         <PostBox />
 
         <FlipMove>
-          {Feed.map((data, key) => (
+          {quests.map((data, key) => (
             <Post
               key={key}
               username={data.username}
