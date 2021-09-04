@@ -3,12 +3,11 @@
     color: rgb(207, 207, 207);
     height: 55px;
   }
-  
-  .nav_toggles {
-    color: white !important;
+
+  .navbar #text{
+    color: aqua;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 2%;
   }
-  
-  .nav_toggles:hover {
-      transform: scale(1.1);
-      transition: 0.2s ease;
-    }

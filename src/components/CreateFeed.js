@@ -13,15 +13,16 @@ const CreateFeed = () => {
 
       <PostBox />
 
-      <FlipMove/>
+      <FlipMove>
           <Post
             key="1"
             username="Andres Blex"
             verified="True"
             text="Hey all good going"
             avatar="https://i.imgur.com/R4ikJd1.jpg"
-            image="https://imgur.com/l8rN74g"
+            image="https://www.verywellfit.com/thmb/pKPO5vlndEhVh_AD3-9YtdL5uKc=/2121x1193/smart/filters:no_upscale()/GettyImages-1061745418-e91c3dd01a0f4dc3a8a80f12222a0644.jpg"
           />
+          </FlipMove>
     </div>
   );
 }
