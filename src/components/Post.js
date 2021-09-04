@@ -7,7 +7,7 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 
 
 const Post = forwardRef(
-  ({ displayName, username, verified, text, image, avatar }, ref) => {
+  ({ username, verified, text, image, avatar }, ref) => {
     return (
       <div className="post" ref={ref}>
         <div className="post__avatar">
@@ -15,23 +15,23 @@ const Post = forwardRef(
         </div>
         <div className="post__body">
           <div className="post__header">
-            <div className="post__headerText">
               <h3>
-                {displayName}{" "}
+                {username}{" "}
                 <span className="post__headerSpecial">
                   {verified && <VerifiedUserIcon className="post__badge" />} @
                   {username}
                 </span>
               </h3>
-            </div>
             <div className="post__headerDescription">
               <p>{text}</p>
             </div>
           </div>
           <img src={image} height="50%" width="70%" alt="" />
           <div className="post__footer">
-            <ChatBubbleOutlineIcon fontSize="small" />
-            <FavoriteBorderIcon fontSize="small" />
+
+            <ChatBubbleOutlineIcon fontSize="medium" />
+
+            <FavoriteBorderIcon fontSize="medium" />
           </div>
         </div>
       </div>

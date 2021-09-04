@@ -22,13 +22,15 @@
   }
   
   .postBox__imageInput {
-    border: none;
+    border: 1px solid black .5;
     padding: 10px;
     border-radius:10px;
+    width: 300px;
+    margin-left: 82px;
   }
   
   .postBox__postButton {
-    background-color: burlywood !important;
+    background-color: rgb(204, 128, 29) !important;
     border: none !important;
     color: white !important;
     font-weight: 900 !important;

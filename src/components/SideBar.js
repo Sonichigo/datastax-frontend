@@ -3,7 +3,7 @@ import './SideBar.css'
 
 const SideBar = () => {
   return <div className ='sidebar'>
-    Profile Section <br/><br/>
+    <h2>Profile Section</h2>
     UserImage<br/>
     UserName<br/>
     Points<br/>
