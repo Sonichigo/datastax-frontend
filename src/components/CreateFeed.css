@@ -2,8 +2,10 @@
     border: 1px solid rgb(53, 108, 156,.5);
     min-width: 200px;
     overflow-y: inherit;
-    height: 50%;
+    height: 100%;
     width: 100%;
+    box-shadow: 10px 10px 50px grey;
+    z-index:9999999;
   }
 
   .feed::-webkit-scrollbar {

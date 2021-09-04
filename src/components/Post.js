@@ -26,7 +26,7 @@ const Post = forwardRef(
               <p>{text}</p>
             </div>
           </div>
-          <img src={image} height="50%" width="70%" alt="" />
+          <img src={image} height="25%" width="60%" alt="" />
           <div className="post__footer">
 
             <ChatBubbleOutlineIcon fontSize="medium" />

@@ -1,12 +1,13 @@
 import React from "react";
-import './CreateFeed.css'
-import Post from './Post'
+import './CreateFeed.css';
+import Post from './Post';
 import PostBox from "./Postfeed";
 import FlipMove from "react-flip-move";
-import Feed from "../data/feed"
+import Feed from "../data/feed";
 
 const CreateFeed = () => {
   return (
+    <React.Fragment>
     <div className="feed">
       <div className="feed__header">
         <h2>Home</h2>
@@ -27,6 +28,7 @@ const CreateFeed = () => {
       )}
       </FlipMove>
     </div>
+    </React.Fragment>
   );
 }
 

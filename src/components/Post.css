@@ -1,8 +1,9 @@
 .post {
   display: flex;
   align-items: flex-start;
-  border-bottom: 1px solid var(--twitter-background);
+  border-bottom: 1px solid #1a1a1a;
   padding-bottom: 10px;
+  
 }
 
 .post__body {
