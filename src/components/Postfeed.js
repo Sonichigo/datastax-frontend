@@ -7,7 +7,7 @@ function PostBox() {
     <div className="postBox">
       <form>
         <div className="postBox__input">
-          <Avatar src="https://imgur.com/l8rN74g" />
+          <Avatar src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/profile-sample4.jpg" />
           <input
             placeholder="What's happening?"
             type="text"
