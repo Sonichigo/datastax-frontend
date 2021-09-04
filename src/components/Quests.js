@@ -4,26 +4,28 @@ import axios from "axios";
 import questData from "../data/quests";
 import Quest from "./Quest";
 import "./Quests.css";
+import { SettingsInputAntennaTwoTone } from "@material-ui/icons";
 
 const Quests = () => {
-  const [quests, setQuests] = useState(questData);
+  const [quests, setQuests] = useState(questData.task);
 
-  // const getQuests = async () => {
-  //   try {
-  //     const data = await axios
-  //       .get("https://datastax-hackathon-api.herokuapp.com/tasks")
-  //       .then((res) => {
-  //         setQuests(res.data);
-  //       });
-  //     return data;
-  //   } catch (e) {
-  //     console.log(e);
-  //   }
-  // };
+  const getQuests = async () => {
+    try {
+      const data = await axios
+        .get(`https://datastax-hackathon-api.herokuapp.com/tasks`)
+        .then((res) => {
+          console.log(res.data);
+          setQuests(res.data.json());
+        });
+      return data;
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
-  // useEffect(() => {
-  //   getQuests();
-  // }, []);
+  useEffect(() => {
+    getQuests();
+  }, []);
 
   return (
     <div className="main">
@@ -31,7 +33,7 @@ const Quests = () => {
         <h1>Quests</h1>
       </div>
       <ul>
-        {quests.day1.map((quest, key) => (
+        {quests.map((quest, key) => (
           <Quest data={quest} />
         ))}
       </ul>
