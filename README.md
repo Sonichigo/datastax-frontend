@@ -55,7 +55,7 @@ For new contibution or feature :
 ## 📌 Steps to contibute (Front-End):
 
 1. Fork the project:
-Fork the project from https://github.com/kaiwalyakoparkar/datastax-frontend/
+Fork the project from https://github.com/kaiwalyakoparkar/questbook-frontend/
 
 2. Cloning the project :
 ```git
@@ -69,13 +69,13 @@ git clone https://github.com/<your-user-name>/datastax-frontend.git
 8. Wait for acceptance ! Best of luck
 
 ## 📌 Steps to contibute (Back-End):
-Refer [Back-End Repo](https://github.com/kaiwalyakoparkar/datastax-backend/)
+Refer [Back-End Repo](https://github.com/kaiwalyakoparkar/questbook-backend/)
 
 ## Team Members & Contributors
 All the below mentioned are prominent element of this project and without them it wouldn't be possible.
 
-<a href="https://github.com/kaiwalyakoparkar/datastax-frontend/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kaiwalyakoparkar/datastax-frontend" />
+<a href="https://github.com/kaiwalyakoparkar/questbook-frontend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kaiwalyakoparkar/questbook-frontend" />
 </a>
 
 
