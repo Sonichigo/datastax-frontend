@@ -4,7 +4,7 @@
 
 <p align="center">
     ✨ Welcome to QuestBook ✨ <br />
-    This project is target to a very regular problem which grew largely and came to notice during covid situations. People are too bored and struggling with severe mental issues. Our application tries to overcome this boredom and mental health issue with the help of some easy and fun tasks. Helping them contribute to social issues during such hard times.
+    This project is target to a very regular problem which grew larger and came to notice during covid situations. People are too bored and struggling with severe mental issues. Our application tries to overcome this boredom and mental health issue with the help of some easy and fun tasks. Helping them contribute to social issues during such hard times.
 </p>
 <br />
 
